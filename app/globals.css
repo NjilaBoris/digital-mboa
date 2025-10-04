@@ -5,7 +5,10 @@
 
 @theme {
   --font-space-grotesk: "var(--font-space-grotesk)";
+  --font-secondary: #063642;
+  --font-primary: var(--color-orange-400);
 }
+
 @layer base {
   body {
     @apply bg-neutral-300/20;
