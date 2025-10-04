@@ -53,10 +53,7 @@ export default function Hero() {
           }}
           className="absolute left-56 top-96 hidden lg:block"
         >
-          <Pointer
-            name="Mboa"
-            className="text-[#063642] border-[#063642] border"
-          />
+          <Pointer name="Digital" color="orange" className="text-orange-400" />
         </motion.div>
         <motion.div
           animate={{
@@ -70,14 +67,17 @@ export default function Hero() {
           }}
           className="absolute right-80 -top-4 hidden lg:block"
         >
-          <Pointer name="Digital" color="orange" className="text-orange-400" />
+          <Pointer
+            name="Mboa"
+            className="text-[#063642] border-[#063642] border"
+          />
         </motion.div>
 
         <h1 className="text-6xl px-5 md:p-0 lg:text-[4.4rem] font-space-grotesk lg:leading-[59px] lg:max-w-2xl lg:mx-auto md:text-7xl font-medium text-center mt-6">
           Osez franchir de nouveaux horizons numériques avec Digital Mboa.
         </h1>
 
-        <div className="flex border items-cente gap-4 justify-center border-white/15 rounded-full p-2 mt-8 max-w-lg mx-auto">
+        <div className="flex border items-center gap-4 justify-center border-white/15 rounded-full p-2 mt-8 max-w-lg mx-auto">
           <Link href="/nos-services" className="cursor-pointer">
             <Button
               type="submit"
