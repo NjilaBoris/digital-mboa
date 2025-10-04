@@ -39,7 +39,7 @@ export default function Faqs() {
     <section className="py-24 px-5">
       <div className="container">
         <h2 className="text-6xl font-medium mt-6 text-center max-w-xl mx-auto">
-          Des questions ? Nous avons{" "}
+          Des questions ? Nous avons
           <span className="text-orange-400">réponses</span>
         </h2>
         <div className="mt-12 flex flex-col gap-6 max-w-xl mx-auto">
