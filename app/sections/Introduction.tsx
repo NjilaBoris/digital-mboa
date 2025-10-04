@@ -22,7 +22,7 @@ export default function Introduction() {
                 <h3 className="font-light text-[1.2rem] font-space-grotesk">
                   {item.title}
                 </h3>
-                <p className="text-[0.8rem] font-space-grotesk">
+                <p className="text-[0.8rem] font-extralight text-neutral-900/90 font-space-grotesk">
                   {item.description}
                 </p>
               </div>
