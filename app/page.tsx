@@ -4,6 +4,7 @@ import LogoTicker from "./sections/LogoTicker";
 import Introduction from "./sections/Introduction";
 import Integrations from "./sections/Integrations";
 import Faqs from "./sections/Faqs";
+import CallToAction from "./sections/CallToAction";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Introduction />
       <Integrations />
       <Faqs />
+      <CallToAction />
     </div>
   );
 };
