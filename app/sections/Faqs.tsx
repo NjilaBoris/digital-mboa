@@ -17,9 +17,9 @@ const faqs = [
       "Parce que nous allions créativité, expertise et vision locale. Nous comprenons les réalités du marché africain et proposons des solutions sur mesure, adaptées à vos besoins et à votre budget.",
   },
   {
-    question: "How do you handle version control?",
+    question: "Combien coûtent vos services ?",
     answer:
-      "Every change in Layers is automatically saved and versioned. You can review history, restore previous versions, and create named versions for important milestones.",
+      "Nos tarifs varient selon la nature et la complexité du projet. Chaque mission fait l’objet d’un devis personnalisé après une première consultation gratuite pour bien cerner vos besoins.",
   },
   {
     question: "À qui s’adressent vos services ?",
