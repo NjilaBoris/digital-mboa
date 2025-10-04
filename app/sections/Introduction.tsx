@@ -1,14 +1,34 @@
+import { WhyChooseUs } from "@/constants";
+import { Icon } from "lucide-react";
+
 export default function Introduction() {
   return (
     <section className="py-5 lg:py-15">
       <div className="container">
-        <h1 className="text-xl md:text-6xl lg:text-[2rem] text-center font-medium mt-10">
-          Trop d’entreprises et de talents se perdent face à la complexité et au
-          manque de formations adaptées. Mboa Digital simplifie l’accès aux
-          compétences technologiques d’avenir. Nous formons, accompagnons et
-          transformons vos idées en solutions concrètes. Avec Mboa Digital,
-          devenez acteur de la révolution numérique.
+        <h1 className="text-xl font-space-grotesk md:text-6xl capitalize lg:text-[2.5rem] text-center font-medium mt-10">
+          pourquoi choisir <span className="text-orange-400">Digital</span>{" "}
+          <span className="text-[#063642]">Mboa</span>?
         </h1>
+        <div className=" rounded-lg p-10 mt-10 grid gap-8 md:grid-cols-3">
+          {WhyChooseUs.map((item, index) => (
+            <div
+              key={index}
+              className="flex p-6 text-center flex-col justify-center border border-neutral-300 rounded-2xl  gap-3.5 items-center"
+            >
+              <div className="bg-[#063642] w-fit  text-orange-400 p-5 rounded-full">
+                {item.icon}
+              </div>
+              <div>
+                <h3 className="font-light text-[1.2rem] font-space-grotesk">
+                  {item.title}
+                </h3>
+                <p className="text-[0.8rem] font-space-grotesk">
+                  {item.description}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

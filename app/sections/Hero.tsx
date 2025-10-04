@@ -73,8 +73,10 @@ export default function Hero() {
           />
         </motion.div>
 
-        <h1 className="text-6xl px-5 md:p-0 lg:text-[4.4rem] font-space-grotesk lg:leading-[59px] lg:max-w-2xl lg:mx-auto md:text-7xl font-medium text-center mt-6">
-          Osez franchir de nouveaux horizons numériques avec Digital Mboa.
+        <h1 className="text-6xl px-5 md:p-0 lg:text-[4.4rem] font-space-grotesk lg:leading-[65px] lg:max-w-2xl lg:mx-auto md:text-7xl font-medium text-center mt-6">
+          Osez franchir de nouveaux horizons numériques avec{" "}
+          <span className="text-orange-400">Digital</span>
+          <span className="text-[#063642]">Mboa.</span>
         </h1>
 
         <div className="flex border items-center gap-4 justify-center border-white/15 rounded-full p-2 mt-8 max-w-lg mx-auto">
